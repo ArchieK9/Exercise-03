@@ -1,0 +1,164 @@
+body{
+    background-color:  hsl(217, 54%, 11%);
+    margin: 0;
+}
+
+.card{
+    background-color:  hsl(216, 50%, 16%);
+    margin: 2.7rem auto;
+    height: 35rem;
+    width: 20rem;
+    border-radius: 1.3rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.item{
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+    top: 4.5%;
+    left: 3.5%;
+}
+
+.container{
+    position: relative;
+    width: 18.875rem;
+    height: 18.875rem;
+    background-color:hsl(216, 50%, 16%);;
+    border-radius: 1.3rem;
+    overflow: hidden;
+    top: -1.3rem;
+    left: -.1rem;
+}
+
+.container::before{
+    content: '';
+    width: 6.3rem;
+    height: 30rem;
+    left:6.3rem;
+    top:-5rem;
+    position: absolute;
+    background: linear-gradient(#00e5ff ,  #b400fb);
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{ transform: rotate(0deg);}
+
+    100%{ transform: rotate(360deg); }
+}
+
+.container::after{
+    content: '';
+    position: absolute;
+    inset: 0.1875rem;
+    border-radius: 2rem;
+}
+
+
+.nft{
+    position: relative;
+    width: 97%;
+    border-radius: 1.3rem;
+    left: 1.5%;
+    top: 1.5%;
+    clear: right;
+    z-index: 1;
+}
+
+
+.p-1{
+    position: relative;
+    top: 0%;
+    left: 5%;
+    font-size:1.125rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+}
+
+.p-2{
+    color:  hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-family: 'Outfit' ,sans-serif;
+    font-size: 1rem;
+
+}
+
+.price{
+    position: relative;
+    top: 6.5%;
+    left: 5%;
+    box-sizing: border-box;
+}
+
+.eth{
+    float: left;
+}
+
+.p-3{
+    margin-top: 0;
+    margin-left: 6.5%;
+    color: #00ffff;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300
+}
+
+.time{
+    position: relative;
+    left: 65%;
+    box-sizing: border-box;
+}
+
+.clock{
+    float: left;
+    margin-right: 0;
+}
+
+.p-4{
+    position: relative;
+    left: .5rem;
+    margin-top: 0;
+    margin-right: -40%;
+    color: hsl(215, 51%, 70%) ;
+    font-family: 'Outfit', sans-serif;
+}
+
+hr{
+    border-color: hsl(215, 51%, 70%);
+    position: relative;
+    width: 16rem;
+}
+
+.creator{
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 7%;
+}
+
+.avatar{
+    position: relative;
+    top: .5rem;
+    width: 10%;
+    height: 10%;
+    float: left;
+    border: 0.1rem #fff;
+    border-radius: 5rem;
+    border-style: solid;
+}
+
+.p-5{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    left: 4%;
+
+}
+
+.name{
+    text-decoration: none;
+    color: #fff;
+}
